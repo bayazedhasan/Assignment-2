@@ -1,4 +1,117 @@
-.p{
-    color: aqua;
-    background-color: burlywood;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.display-flex{
+    display: flex;
+
 }
+/* margin */
+.body-margin, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* text-color */
+.orange{
+    color: rgb(254, 163, 1);
+
+}
+.Sky-Blue{
+    color: rgb(1, 172, 253);
+}
+.rgb{
+   color: rgb(5, 212, 223); 
+}
+.admission{
+    color: rgb(93, 88, 239);
+}
+
+
+.navbar{
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.nav-item{
+    list-style: none;
+    margin: 20px;   
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.nav-btn{
+    border-radius: 12px;
+    background-color: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);;
+}
+.banner{
+    justify-content: center;
+}
+.banner-content{
+    width: 640px;
+    height: 331px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 120px;
+    padding: 20px;
+    
+    
+}
+.banner-title{
+    width: 550px;
+    height: 200px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 25px 0px;
+}
+#Empowering{
+    color: rgb(254, 163, 1);
+}
+#students{
+    color: rgb(17, 17, 17);
+}
+#towards{
+    color: rgb(1, 172, 253);
+}
+
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(17, 17, 17);;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(255, 255, 255);;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+    width: 197px;
+    height: 50px 
+
+}
+.banner-image{
+    width: 450px;
+    height: 570px;
+    margin-top: 10px;
+}
+
+
+
