@@ -571,6 +571,14 @@
         margin-right: 180px;
         margin-top: 20px;
     }
+    .menu{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        margin-left: -80px;
+        
+    }
 
     .banner{
         flex-direction: column-reverse;
