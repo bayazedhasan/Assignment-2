@@ -134,6 +134,17 @@
     width: 1440px;
     height: 879px;
 }
+.scrolling-text{
+    font-size: 30px;
+    font-weight: 600;
+   margin-left: 300px;
+   margin-top: -20px;
+   margin-bottom: -20px;
+   color: rgb(1, 172, 253);
+}
+#spen-text{
+    color: rgb(254, 163, 1);
+}
 
 .card{
     margin-top: 120px;
@@ -323,6 +334,14 @@
     margin-left: 20px;
     
     
+}
+.section-btn-aa{
+    position: relative;
+    margin-top: -30px;
+}
+.section-btn-aaa{
+    position: relative;
+    margin-top: -25px;
 }
 .section-title-a{
     color: rgb(0, 0, 0);
